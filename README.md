@@ -24,7 +24,7 @@ path_dossierOUT = "/your/path/here/fOut"`
 
 ##### 3) Renseignez votre user-name github ainsi que votre token dans les variables `username` et `token`. 
 Pour savoir comment obtenir un token, connectez vous sur votre compte github, puis : https://github.com/settings/tokens ou [Cliquez-ici](https://github.com/settings/tokens).
-Attention un token est visible une fois pendant une courte periode.
+:warning: Attention un token est visible une fois pendant une courte periode.
 ```python
 username = 'your_user_name_GITHUB_here'
 token = 'your_token_number_here'
