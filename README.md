@@ -6,7 +6,7 @@ Pour reproduire ce test il faudra utiliser les deux fichiers nommés respectivem
 _____________________________________________________________________________________________________________________________
 
 
-## :one: | 1ère étape : "test_ask_mona_etape1.py"
+## :one: | 1ère étape : `test_ask_mona_etape1.py`
 
 > Ce fichier a pour but de "scrapper" les fichiers qui viennent de l'api github.
 > Avant de lancer ce programme depuis un IDE python 3 vous devrez compléter quelques informations necessaires.
@@ -42,7 +42,7 @@ issueFin = 58000
 
 _____________________________________________________________________________________________________________________________
 
-## :two: | 2ème étape : "test_ask_mona_etape2.py"
+## :two: | 2ème étape : `test_ask_mona_etape2.py`
 
 > Ce fichier a pour but de "générer" un modèle de classification depuis le fichier csv généré en fin d'étape 1.
 > Avant de lancer ce programme depuis un IDE python 3 vous devrez compléter quelques informations necessaires.
