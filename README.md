@@ -1,6 +1,4 @@
-![GitHub Logo](/home/robin/Bureau/just-ask-mona.jpg)
-Format: ![Alt Text](url)
-
+![Image of AskMona](https://ibb.co/hUvuS9)
 
 # _TEST ASK-MONA_
 
