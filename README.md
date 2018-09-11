@@ -30,7 +30,7 @@ username = 'your_user_name_GITHUB_here'
 token = 'your_token_number_here'
 ```
 
-##### 4) Enfin, ce qui va suivre est une option ce qui impliqu que vous n'êtes pas obligé d'y toucher. 
+##### 4) Enfin, ce qui va suivre est une option ce qui implique que vous n'êtes pas obligés d'y toucher. 
 Vous pouvez modifier le numéro de l'issue de départ ainsi que celle de fin. (en sachant que la première issue existante est la 00001 et la dernière est ~ 58050)
 #Ces issues seront ensuite téléchargées de l' `issueDepart` à l' `issueFin`
 ```python
@@ -38,7 +38,7 @@ issueDepart = 55000
 issueFin = 58000
 ```
 > Si tout s'est bien passé vous allez attendre quelques minutes le temps que tout finisse.
-> L'étape 1 aura finalament scrappée les données de l'api github. Ces données sont au format .Json , nous prefererons travailler en .csv , c'est pourquoi une étape de transformation entre .json et .csv est présente. Enfin, les données sont rassemblées en 1 fichier .csv  .
+> L'étape 1 aura finalament scrappé/pris les données de l'api github. Ces données sont au format _.Json_ , nous prefererons travailler en _.csv_ , c'est pourquoi une étape de transformation entre _.json_ et _.csv_ est présente. Enfin, les données sont rassemblées en 1 fichier .csv  .
 
 _____________________________________________________________________________________________________________________________
 
@@ -51,10 +51,10 @@ ________________________________________________________________________________
 ```python
 path_dossierOUT = "/your/path/here/fOut"
 ```
-> Si tout s'est bien passé vous aurez affichés en bas le résultat du taux de réussite en % de l'entrainement du modèle.
+> Si tout s'est bien passé vous aurez affiché en bas le résultat du taux de réussite en % de l'entrainement du modèle.
 > Le modèle utilisé est un modèle linéaire multi-classes qui est celui qui répond le mieux à ce genre de classification. 
-> Plusieurs autres modèles ont été utilisé avec des taux de réussite allant de 90 à 97 %.
-> La classification linéaire à l'avantage de ne pas avoir besoin d'un très grand nombre d'échantillons, comme ici nous en utilisons 3000 (moins 20%) ce qui est relativement faible. Ce modèle à aussi l'avantage d'être rapide.
+> Plusieurs autres modèles ont été utilisés avec des taux de réussite allant de 90 à 97 %.
+> La classification linéaire a l'avantage de ne pas avoir besoin d'un très grand nombre d'échantillons, comme ici nous en utilisons 3000 (moins 20%) ce qui est relativement faible. Ce modèle a aussi l'avantage d'être rapide.
 
 > Dans mon cas mon taux de réussite varie selon les échantillons de données entre 98 et 99%.
 
