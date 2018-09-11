@@ -1,4 +1,4 @@
-![Image of AskMona](https://preview.ibb.co/niYg79/just_ask_mona.jpg)
+![Image of AskMona](https://preview.ibb.co/bYw7fU/Robin_MAHOU.png)
 
 # _TEST ASK-MONA_
 
